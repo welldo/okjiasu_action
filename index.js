@@ -1,7 +1,7 @@
 /**
  * @author        h7ml <h7ml@qq.com>
  * @date          2022-11-08 19:27:08
- * @lastModified  2022-11-08 22:12:52
+ * @lastModified  2022-11-08 22:37:16
  * Copyright © www.h7ml.cn All rights reserved
  */
 
@@ -76,7 +76,7 @@ const screenshot = async (page) => {
         left: "30px",
       }
     });
-    console.log(`截图生成成功: 即将自动打开pdf文件`)
+    console.log(`截图生成成功`)
     // await open_url_by_browser(pdfPath);
   } else {
     console.log('请在headless模式下截图')
@@ -122,16 +122,16 @@ const getBrowser = async (options) => {
     puppeteer.launch(browserOptions).then(async browser => {
       const page = await browser.newPage();
       await page.goto(config.okjiasu.login);
-      await page.waitForTimeout(1000)
+      await page.waitForTimeout(2000)
       await page.type("#email", config.okjiasu.user, { delay: 50 });
       console.log(`${nowTime()} : 输入账号 ${config.okjiasu.user}`)
-      await page.waitForTimeout(1000)
+      await page.waitForTimeout(2000)
       console.log(`${nowTime()} : 输入密码 ******** `)
       await page.type("#password", config.okjiasu.password, { delay: 50 })
-      await page.waitForTimeout(1000)
+      await page.waitForTimeout(2000)
       console.log(`${nowTime()} : 开始登陆`)
       await page.click("button[type=submit]");
-      await page.waitForTimeout(5000)
+      await page.waitForTimeout(8000)
       console.log(`${nowTime()} : 刷新页面`)
       await page.reload() // 刷新页面,解决新注册用户广告弹窗问题
       await page.waitForTimeout(2000)
