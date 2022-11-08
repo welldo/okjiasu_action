@@ -25,7 +25,7 @@
 - 邀请注册 [h7ml](https://o.okjiasu.com/auth/register?code=AyLB)
 - 直接注册 [无邀请码](https://okjiasu.com/auth/register)
 
-## 【new】功能说明
+## 功能说明
 
 **每日定时签到,白嫖机场流量**
 
@@ -77,5 +77,5 @@ USER_PASSWORD=""
 
 3. `Pnpm install` 安装完依赖后，执行 `yarn run serve` 即可
 
-4. 在`index.js` 中 配置 `headless:false` 可显示浏览器界面(部署时记得改为 true) ![screenshot](https://gitee.com/h7ml/okjiasu_action/raw/main/okjiasu/screenshot.gif)
+4. 在`index.js` 中 配置 `headless:false` 可显示浏览器界面(部署时记得改为 true) ![screenshot](./okjiasu/screenshot.gif)
 </div>
