@@ -4,7 +4,7 @@ permissions:
 on:
   schedule:
     # 执行两次 避免偶尔执行失败的情况出现
-    - cron: '00 08 * * *'
+    - cron: "00 08 * * *"
 
 env:
   TZ: Asia/Shanghai
@@ -41,8 +41,8 @@ jobs:
           OK_USER: ${{ secrets.OK_USER }}
           USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
         run: npm run serve
-      # - name: 更新数据
-      #   uses: JamesIves/github-pages-deploy-action@4.0.0
-      #   with:
-      #     branch: puppeteer
-      #     folder: .
+      - name: 更新数据
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: main
+          folder: .

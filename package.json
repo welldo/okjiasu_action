@@ -45,7 +45,13 @@
     "cz-customizable": "^6.3.0",
     "@dext7r/cz-config": "^1.0.4",
     "@dext7r/eslint-config": "^1.0.0",
-    "@dext7r/prettier": "^0.0.9"
+    "@dext7r/prettier": "^0.0.9",
+    "open-url-by-browser": "1.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
   },
   "husky": {
     "hooks": {

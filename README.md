@@ -77,6 +77,5 @@ USER_PASSWORD=""
 
 3. `Pnpm install` 安装完依赖后，执行 `yarn run serve` 即可
 
-4. 在`index.js` 中 配置 `headless:false` 可显示浏览器界面(部署时记得改为 true)
-
+4. 在`index.js` 中 配置 `headless:false` 可显示浏览器界面(部署时记得改为 true) ![screenshot](https://gitee.com/h7ml/okjiasu_action/raw/main/okjiasu/screenshot.gif)
 </div>
