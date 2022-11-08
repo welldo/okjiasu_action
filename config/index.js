@@ -14,6 +14,9 @@ module.exports = {
       secureConnection: true
     }
   },
+  user: {
+    email: process.env.USER_EMAIL, // 你的接收通知的邮箱
+  },
   okjiasu: {
     login: 'https://okjiasu.com/auth/login',
     user: process.env.OK_USER,

@@ -1,10 +1,10 @@
-name: 掘金日常
+name: okjiasu_action
 permissions:
   contents: write
 on:
   schedule:
-    # 执行两次 避免偶尔执行失败的情况出现
     - cron: "00 08 * * *"
+  workflow_dispatch:
 
 env:
   TZ: Asia/Shanghai

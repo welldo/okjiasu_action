@@ -1,7 +1,7 @@
 /**
  * @author        h7ml <h7ml@qq.com>
  * @date          2022-11-08 19:27:08
- * @lastModified  2022-11-08 21:38:16
+ * @lastModified  2022-11-08 22:12:52
  * Copyright © www.h7ml.cn All rights reserved
  */
 
@@ -11,7 +11,8 @@ const config = require('./config/index')
 const path = require('path')
 const fs = require('fs')
 const open_url_by_browser = require("open-url-by-browser");
-
+const { sendEmail } = require(`./utils/email`)
+const { getHitokotoWords } = require('./utils/hitokoto')
 /**
  * 截屏pdf所存目录
  */
@@ -66,8 +67,8 @@ const screenshot = async (page) => {
       displayHeaderFooter: true,
       path: pdfPath,
       format: 'A4',
-      headerTemplate: '<b style="font-size: 30px"> puppeteer  <b/>',
-      footerTemplate: '<b style="font-size: 30px">okjiasu_action by <a href="https://github.com/h7ml/">h7ml</a></b>',
+      headerTemplate: '<b style="font-size: 30px;text-algin: center"> puppeteer  <b/>',
+      footerTemplate: '<b style="font-size: 30px;text-algin: center">okjiasu_action by <a href="https://github.com/h7ml/">h7ml</a></b>',
       margin: {
         top: "100px",
         bottom: "200px",
@@ -134,6 +135,12 @@ const getBrowser = async (options) => {
       console.log(`${nowTime()} : 刷新页面`)
       await page.reload() // 刷新页面,解决新注册用户广告弹窗问题
       await page.waitForTimeout(2000)
+      const words = await getHitokotoWords()
+      await sendEmail({
+        to: config.user.email,
+        text: `今日一句诗词：${words}`,
+        subject: '【okjiasu_action】邮件测试'
+      })
       console.log(`${nowTime()} : 开始签到`)
       await checkIn(page)
     });
