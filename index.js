@@ -1,7 +1,7 @@
 /**
  * @author        h7ml <h7ml@qq.com>
  * @date          2022-11-08 19:27:08
- * @lastModified  2022-11-08 22:37:16
+ * @lastModified  2022-11-08 23:16:17
  * Copyright © www.h7ml.cn All rights reserved
  */
 
@@ -38,7 +38,7 @@ const nowTime = () => {
  * @description: puppeteer浏览器的配置项
  */
 const browserOptions = {
-  headless: true,
+  headless: false,
   ignoreDefaultArgs: ['--disable-extensions'],
   defaultViewport: {
     width: 1920,
@@ -123,12 +123,12 @@ const getBrowser = async (options) => {
       const page = await browser.newPage();
       await page.goto(config.okjiasu.login);
       await page.waitForTimeout(2000)
-      await page.type("#email", config.okjiasu.user, { delay: 50 });
+      await page.type("#email", config.okjiasu.user, { delay: 500 });
       console.log(`${nowTime()} : 输入账号 ${config.okjiasu.user}`)
       await page.waitForTimeout(2000)
       console.log(`${nowTime()} : 输入密码 ******** `)
-      await page.type("#password", config.okjiasu.password, { delay: 50 })
-      await page.waitForTimeout(2000)
+      await page.type("#password", config.okjiasu.password, { delay: 500 })
+      // await page.waitForTimeout(2000)
       console.log(`${nowTime()} : 开始登陆`)
       await page.click("button[type=submit]");
       await page.waitForTimeout(8000)
