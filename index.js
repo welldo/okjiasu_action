@@ -1,7 +1,7 @@
 /**
  * @author        h7ml <h7ml@qq.com>
  * @date          2022-11-08 19:27:08
- * @lastModified  2022-11-09 16:35:31
+ * @lastModified  2022-11-09 17:48:55
  * Copyright © www.h7ml.cn All rights reserved
  */
 
@@ -59,59 +59,56 @@ const screenshotDOMElement = async (page, selector, path, padding = 0) => {
       const words = await getHitokotoWords();
       console.log(`${nowTime()} : 一言: ${words}`);
       console.log(`${nowTime()} : 开始发送邮件`);
-      let tableTr = '';
+      let tableTemplate = '';
       await fs.readFile(path.replaceAll("pdf", "json"), "utf-8", async (err, data) => {
         if (err) {
           throw err;
         }
         data = JSON.parse(data);
-        await Promise.all(data.map(async (item) => {
-          const [text, url] = [item.text.replaceAll('复制', ''), item.url];
-          tableTr = `<tr style="background: #fff;"> <td style="height: 25px;  line-height: 25px;  text-align: center; border: 1px solid #ccc;">${text} </td><td style="height: 25px;  line-height: 25px;  text-align: center; border: 1px solid #ccc;">${url}</td></tr>`;
-        }))
-        console.log(tableTr, '1')
+        tableTemplate = `<table style="width: 90%;background: #ccc;margin: 10px auto;border-collapse: collapse;" border="1" summary="Monthly savings for the Flintstones family">` +
+          `<tbody>` +
+          `<tr style="background: #fff;text-align: center;">` +
+          `<th style="height: 25px;	line-height: 25px;	text-align: center;	border: 1px solid #ccc;background: #eee;	font-weight: normal;">订阅名称</th><th style="height: 25px;	line-height: 25px;	text-align: center;	border: 1px solid #ccc;background: #eee;	font-weight: normal;">订阅地址</th>` +
+          `</tr>` +
+          `${data.map(item => {
+            const [text, url] = [item.text.replaceAll('复制', ''), item.url];
+            return `<tr style="background: #fff;text-align: center;"> <td style="height: 25px;  line-height: 25px;  text-align: center; border: 1px solid #ccc;">${text} </td><td style="height: 25px;  line-height: 25px;  text-align: center; border: 1px solid #ccc;"><a href="${url}" target="_blank">${url}</a></td></tr>`
+          }).join('')}` +
+          `</tbody>` +
+          `</table>`
+        if (config.user.email)
+          await sendEmail({
+            to: config.user.email,
+            text: words,
+            subject: `【okjiasu_action】${nowTime(
+              "YYYY-MM-DD HH:mm:ss"
+            )
+              } 签到结果`,
+            html:
+              `<p style="text-align: center;"> 今日一言：${words}</p> <h2 style="text-align: center;">签到结果：</h2>` +
+              `<div style="background: #fff;text-align: center;"><img src="cid:okjiasu_png" /></div> ` + ` ${tableTemplate}}`,
+            attachments: [
+              {
+                filename: words,
+                path: path.replaceAll("pdf", "png"),
+                cid: "okjiasu_png",
+              },
+              {
+                filename: "okjiasu.pdf",
+                path: path,
+                contentType: "application/pdf",
+                cid: "okjiasu_pdf",
+              },
+              {
+                filename: "okjiasu.json",
+                path: path.replaceAll("pdf", "json"),
+                contentType: "application/json",
+                cid: "okjiasu_json",
+              },
+            ],
+          });
+        console.log(`${nowTime()} : 邮件发送成功`);
       });
-      console.log(tableTr, '2')
-      if (config.user.email)
-        await sendEmail({
-          to: config.user.email,
-          text: words,
-          subject: `【okjiasu_action】${nowTime(
-            "YYYY-MM-DD HH:mm:ss"
-          )
-            } 签到结果`,
-          html:
-            `<p style = "text-align: center;"> 今日一言：${words}</p> <p>签到结果：</p>` +
-            `<img src="cid:okjiasu_png" /> ` +
-            `<table style="width: 90%;background: #ccc;margin: 10px auto;border-collapse: collapse;" border="1" summary="Monthly savings for the Flintstones family">` +
-            `<tbody>` +
-            `<tr style="background: #fff;">` +
-            `<th style="height: 25px;	line-height: 25px;	text-align: center;	border: 1px solid #ccc;background: #eee;	font-weight: normal;">订阅名称</th><th style="height: 25px;	line-height: 25px;	text-align: center;	border: 1px solid #ccc;background: #eee;	font-weight: normal;">订阅地址</th>` +
-            `</tr>` +
-            `${tableTr}` +
-            `</tbody>` +
-            `</table > `,
-          attachments: [
-            {
-              filename: words,
-              path: path.replaceAll("pdf", "png"),
-              cid: "okjiasu_png",
-            },
-            {
-              filename: "okjiasu.pdf",
-              path: path,
-              contentType: "application/pdf",
-              cid: "okjiasu_pdf",
-            },
-            {
-              filename: "okjiasu.json",
-              path: path.replaceAll("pdf", "json"),
-              contentType: "application/json",
-              cid: "okjiasu_json",
-            },
-          ],
-        });
-      console.log(`${nowTime()} : 邮件发送成功`);
     })
     .catch(async (err) => {
       console.log(`${nowTime()} : 截图失败`);
