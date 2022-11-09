@@ -32,21 +32,22 @@
     "axios": "^0.27.2",
     "dayjs": "^1.11.6",
     "dotenv": "^16.0.1",
+    "expect-puppeteer": "^6.1.1",
     "husky": "^8.0.2",
     "node-json-db": "^2.1.0",
     "nodemailer": "^6.7.7",
     "puppeteer": "^19.2.2"
   },
   "devDependencies": {
-    "lint-staged": "13.0.3",
-    "prettier": "2.6.2",
-    "commitizen": "^4.2.5",
-    "cz-conventional-changelog": "3.3.0",
-    "cz-customizable": "^6.3.0",
     "@dext7r/cz-config": "^1.0.4",
     "@dext7r/eslint-config": "^1.0.0",
     "@dext7r/prettier": "^0.0.9",
-    "open-url-by-browser": "1.0.1"
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "^6.3.0",
+    "lint-staged": "13.0.3",
+    "open-url-by-browser": "1.0.1",
+    "prettier": "2.6.2"
   },
   "config": {
     "commitizen": {
