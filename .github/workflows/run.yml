@@ -32,8 +32,9 @@ jobs:
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
           OK_USER: ${{ secrets.OK_USER }}
-          USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+          OK_PASSWORD: ${{ secrets.OK_PASSWORD }}
         run: yarn run serve
       - name: 更新数据
         uses: JamesIves/github-pages-deploy-action@4.0.0

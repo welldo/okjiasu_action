@@ -38,13 +38,13 @@
 
 2. 在仓库 `Settings->Secrets->Actions`中添加如下几个变量：
 
-| NAME          | VALUE              |
-| ------------- | ------------------ |
-| EMAIL_USER    | 发送邮件的邮箱账号 |
-| EMAIL_PASS    | 发送邮件的授权码   |
-| USER_EMAIL    | 接收通知的邮箱账号 |
-| OK_USER       | okjiasu - 账号     |
-| USER_PASSWORD | okjiasu - 密码     |
+| NAME        | VALUE              |
+| ----------- | ------------------ |
+| EMAIL_USER  | 发送邮件的邮箱账号 |
+| EMAIL_PASS  | 发送邮件的授权码   |
+| USER_EMAIL  | 接收通知的邮箱账号 |
+| OK_USER     | okjiasu - 账号     |
+| OK_PASSWORD | okjiasu - 密码     |
 
 3. 在 `Settings->Actions`确保 actions 是开启状态
 
@@ -72,7 +72,7 @@ USER_EMAIL=""
 OK_USER=""
 
 # okjiasu - 密码
-USER_PASSWORD=""
+OK_PASSWORD=""
 ```
 
 3. `Pnpm install` 安装完依赖后，执行 `yarn run serve` 即可
