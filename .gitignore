@@ -1,3 +1,10 @@
+# modules
+.idea
 /node_modules
 .env
 /okjiasu/*.json
+/package/okjiasu/screenshot/*.json
+
+# lock
+package-lock.json
+pnpm-lock.yaml
