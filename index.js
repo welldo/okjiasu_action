@@ -1,7 +1,7 @@
 /**
  * @author        h7ml <h7ml@qq.com>
  * @date          2022-11-08 19:27:08
- * @lastModified  2022-11-08 22:37:16
+ * @lastModified  2022-11-09 09:30:00
  * Copyright © www.h7ml.cn All rights reserved
  */
 
@@ -30,8 +30,40 @@ if (!fs.existsSync(okjiasuPdf)) {
  * 输出当前时间
  * @returns {string} 当前时间
  */
-const nowTime = () => {
-  return dayjs().format('YYYY-MM-DD-HH-mm-ss')
+const nowTime = (format = 'YYYY-MM-DD-HH-mm-ss') => {
+  return dayjs().format(format)
+}
+
+
+const screenshotDOMElement = async (page, selector, path, padding = 0) => {
+  await page.waitForXPath(selector).then(async (res) => {
+    const rect = await res.boundingBox()
+    await res.screenshot({
+      path: path.replaceAll('pdf', 'png'),
+      clip: {
+        x: Number(rect.x) - padding,
+        y: Number(rect.y) - padding,
+        width: Number(rect.width) + padding * 2,
+        height: Number(rect.height) + padding * 2
+      },
+    })
+    const words = await getHitokotoWords()
+    await sendEmail({
+      to: config.user.email,
+      text: words,
+      subject: `【okjiasu_action】${nowTime('YYYY-MM-DD HH:mm:ss')} 签到结果`,
+      html: `<p>今日一言：${words}</p><p>签到结果：</p><img src="cid:okjiasu_action" />`,
+      attachments: [
+        {
+          filename: words,
+          path: path.replaceAll('pdf', 'png'),
+          cid: 'okjiasu_action'
+        },
+      ]
+    })
+  }).catch(async (err) => {
+    console.log(err, 'err')
+  })
 }
 
 /**
@@ -59,8 +91,7 @@ const browserOptions = {
 /**
  * @description: 截屏
  */
-const screenshot = async (page) => {
-  const pdfPath = path.join(okjiasuPdf, `${nowTime()}.pdf`)
+const screenshot = async (page, pdfPath) => {
   if (browserOptions.headless) {
     console.log(`开始截图: 生成pdf ${pdfPath}`)
     await page.pdf({
@@ -89,24 +120,26 @@ const screenshot = async (page) => {
 const checkBtnXpath = '//*[@id="dashboard-analytics"]/div[2]/div[2]/div[1]/div[1]/span/button'
 
 /**
+ * @description: 截图区域
+ */
+const screenXpath = '//*[@id="dashboard-analytics"]/div[2]/div[2]/div[2]/div'
+
+
+/**
  * @description: 签到
  */
 const checkIn = async (page) => {
   await page.waitForXPath(checkBtnXpath).then(async (res) => {
     const checkInfo = await res.executionContext().evaluate(res => res.textContent, res)
+    checkInfo.includes('已签到') ? console.log(`${nowTime()} : 已签到, 退出程序`) : console.log(`${nowTime()} : 未签到, 开始签到`)
+    const pdfPath = path.join(okjiasuPdf, `${nowTime()}.pdf`)
     if (checkInfo.includes('已签到')) {
-      await screenshot(page)
-      console.log(`${nowTime()} : 已签到, 退出程序`)
-      await closeBrowser()
-      process.exit(0)
+      await screenshot(page, pdfPath)
     } else {
-      console.log(`${nowTime()} : 未签到, 开始签到`)
       await page.click('#checkin')
-      await page.waitForTimeout(5000)
-      await screenshot(page)
+      await page.waitForTimeout(1000)
+      await screenshot(page, pdfPath)
       console.log(`${nowTime()} : 签到成功, 退出程序`)
-      await closeBrowser()
-      process.exit(0)
     }
   })
 }
@@ -122,27 +155,27 @@ const getBrowser = async (options) => {
     puppeteer.launch(browserOptions).then(async browser => {
       const page = await browser.newPage();
       await page.goto(config.okjiasu.login);
-      await page.waitForTimeout(2000)
+      await page.waitForTimeout(1000)
       await page.type("#email", config.okjiasu.user, { delay: 50 });
       console.log(`${nowTime()} : 输入账号 ${config.okjiasu.user}`)
-      await page.waitForTimeout(2000)
+      await page.waitForTimeout(1000)
       console.log(`${nowTime()} : 输入密码 ******** `)
       await page.type("#password", config.okjiasu.password, { delay: 50 })
-      await page.waitForTimeout(2000)
+      // await page.waitForTimeout(2000)
       console.log(`${nowTime()} : 开始登陆`)
       await page.click("button[type=submit]");
       await page.waitForTimeout(8000)
       console.log(`${nowTime()} : 刷新页面`)
       await page.reload() // 刷新页面,解决新注册用户广告弹窗问题
       await page.waitForTimeout(2000)
-      const words = await getHitokotoWords()
-      await sendEmail({
-        to: config.user.email,
-        text: `今日一句诗词：${words}`,
-        subject: '【okjiasu_action】邮件测试'
-      })
-      console.log(`${nowTime()} : 开始签到`)
       await checkIn(page)
+      await page.waitForTimeout(2000)
+      const pdfPath = path.join(okjiasuPdf, `${nowTime()}.pdf`)
+      console.log(`${nowTime()} : 开始截屏`)
+      await screenshotDOMElement(page, screenXpath, pdfPath);
+      await page.waitForTimeout(6000)
+      await closeBrowser()
+      process.exit(0)
     });
   }
   catch (error) {
