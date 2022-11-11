@@ -202,9 +202,11 @@ insertHome = async (data) => {
   console.log(`${nowTime()} : 开始写入首页readme.md 的节点信息`);
   const readmePath = path.join(__dirname, '../../README.md');
   const readme = fs.readFileSync(readmePath, 'utf8');
+  // 刪除掉今日免费节点 之后的内容
+  const splitReadme = readme.split('## 今日免费节点')[0] + '## 今日免费节点';
   console.log(`${nowTime()} : 读取readme.md 完毕`);
-  // 将 data 插入到 readmePath最后一行
-  const newReadme = `${readme}\n${data}`;
+  // 将 data 替换到 ## 今日免费节点 之后
+  const newReadme = `${splitReadme}\n${data}`;
   await fs.writeFileSync(readmePath, newReadme,
     { encoding: "utf8", flag: "w" });
   console.log(`${nowTime()} : 写入首页readme.md 的节点信息完毕`);
@@ -216,10 +218,9 @@ const writeReadme = async (data) => {
   // 内容模板
   const tableContent =
     data.map((item) => {
-      // | 节点名称 | 节点ip | 节点端口 | 节点ID | 节点协议 |节点链接 | 节点二维码 |`
       const { text, detail } = item;
-      const { ip, port, alterID, UUid, protocol, vmess, qrcode } = detail;
-      return `| ${text} | ${ip} | ${port} | ${UUid} | ${protocol} | <a href="${vmess}" title="${text}">点击导入</a> | ![二维码](${qrcode}) |`;
+      const { vmess, qrcode } = detail;
+      return `| ${text} | <details><summary><a href="${vmess}" title="${text}">点击导入</a></summary>${vmess}</details> | ![二维码](${qrcode}) |`;
       // 解决生成的有,号的问题
     })
   // 将 tableContent 里得我逗号替换为换行
@@ -268,9 +269,9 @@ const getBrowser = async (options) => {
       // 当前写入时间
       const nowTimeStr = `### 采集时间: ${nowTime('YYYY-MM-DD HH:mm:ss')} `;
       // 头部表格模板
-      const tableHeader = `| 节点名称 | 节点ip | 节点端口 | 节点ID | 节点协议 | 节点链接 | 节点二维码 |`;
+      const tableHeader = `| 节点名称 | 节点链接 | 节点二维码 |`;
       // 换行符
-      const lineBreak = `| :---: | :---: | :---: | :---: | :---: |  :---: | :---: |`;
+      const lineBreak = `| :---: | :---: | :---: |`;
       // 判断readmePath文件 是否存在，不存在则创建
       if (!fs.existsSync(readmePath)) {
         console.log("readme.md文件不存在，创建readme.md文件,并写入头部表格模板");
