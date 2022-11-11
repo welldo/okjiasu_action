@@ -3,7 +3,7 @@ permissions:
   contents: write
 on:
   schedule:
-    - cron: "00 04 * * *"
+    - cron: "30 03 * * *"
   push:
     branches: [main]
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
           USER_EMAIL: ${{ secrets.USER_EMAIL }}
           OK_USER: ${{ secrets.OK_USER }}
           OK_PASSWORD: ${{ secrets.OK_PASSWORD }}
-        run: yarn run serve
+        run: yarn run free
       - name: deploy
         # 使用github-pages-deploy-action: https://github.com/JamesIves/github-pages-deploy-action/tree/master
         uses: JamesIves/github-pages-deploy-action@v4.3.3
