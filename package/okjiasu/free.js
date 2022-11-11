@@ -177,14 +177,18 @@ const getFreeList = async (page) => {
   console.log(`${nowTime()} : 跳转到节点列表页`);
   await page.goto('https://okjiasu.com/user/node')
   console.log(`${nowTime()} : 获取订阅链接`);
+  await page.waitForTimeout(1000);
   const subscribeUrl = await getFreescribeUrl(page);
   console.log(`${nowTime()} : 订阅链接获取完毕`);
   console.log(`${nowTime()} : 保存订阅链接到 ${freejsonpath}`);
+  await page.waitForTimeout(1000);
   fs.writeFileSync(freejsonpath,
     JSON.stringify(subscribeUrl, null, 4),
     { encoding: "utf8", flag: "w" });
+  await page.waitForTimeout(1000);
   console.log(`${nowTime()} : 保存订阅链接到 ${freejsonpath}完毕`);
   console.log(`${nowTime()} : 开始获取订阅链接详情`);
+  await page.waitForTimeout(1000);
   const FreeList = await openIframeUrl(page, subscribeUrl);
   console.log(`${nowTime()} : 订阅链接详情获取完毕`);
   return FreeList;
@@ -235,6 +239,7 @@ const getBrowser = async (options) => {
       await page.click("button[type=submit]");
       await page.waitForTimeout(2000);
       const FreeList = await getFreeList(page);
+      await page.waitForTimeout(1000);
       console.log(`${nowTime()} : 关闭浏览器`);
       await browser.close();
       await closeBrowser();

@@ -1,11 +1,11 @@
-name: okjiasu_action
+name: free
 permissions:
   contents: write
 on:
   schedule:
     - cron: "30 03 * * *"
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
   workflow_dispatch:
 
 # 设置上海时区
@@ -13,7 +13,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  build:
+  free:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
