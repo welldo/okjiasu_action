@@ -3,10 +3,46 @@ permissions:
   contents: write
 on:
   schedule:
-    - cron: "30 03 * * *"
+    # 15分钟执行一次
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  fork:
+    types: [created]
   # push:
   #   branches: [main]
-  workflow_dispatch:
+  # workflow_dispatch:
+  # repository_dispatch:
+  #   types: [okjiasu_action]
+  # watch:
+  #   types: [started]
+  # issues:
+  #   types: [opened]
+  # pull_request:
+  #   types: [opened]
+  # pull_request_review:
+  #   types: [submitted]
+  # pull_request_review_comment:
+  #   types: [created]
+  # issue_comment:
+  #   types: [created]
+  # commit_comment:
+  #   types: [created]
+  # release:
+  #   types: [published]
+  # project:
+  #   types: [created]
+  # project_card:
+  #   types: [created]
+  # project_column:
+  #   types: [created]
+  # public:
+  #   types: [created]
+  # status:
+  #   types: [created]
+  # check_run:
+  #   types: [created]
+  # check_suite:
+  #   types: [completed]
 
 # 设置上海时区
 env:
