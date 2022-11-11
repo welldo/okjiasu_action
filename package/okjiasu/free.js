@@ -272,12 +272,8 @@ const getBrowser = async (options) => {
       const tableHeader = `| 节点名称 | 节点链接 | 节点二维码 |`;
       // 换行符
       const lineBreak = `| :---: | :---: | :---: |`;
-      // 判断readmePath文件 是否存在，不存在则创建
-      if (!fs.existsSync(readmePath)) {
-        console.log("readme.md文件不存在，创建readme.md文件,并写入头部表格模板");
-        // 写入头部模板和换行符,并换行
-        await fs.writeFileSync(readmePath, `${nowTimeStr}\n${tableHeader}\n${lineBreak}\n`, { encoding: "utf8", flag: "w" });
-      }
+      // 写入头部模板和换行符,并换行
+      await fs.writeFileSync(readmePath, `${nowTimeStr}\n${tableHeader}\n${lineBreak}\n`, { encoding: "utf8", flag: "w" });
       await writeReadme(FreeList);
       process.exit(0);
     });
