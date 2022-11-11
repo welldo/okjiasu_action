@@ -130,7 +130,7 @@ const generateQR = async text => {
   } catch (err) {
     console.error(err)
   }
-  return `https://raw.iqiq.io/h7ml/okjiasu_action/main/package/okjiasu/free/${pngPath}`
+  return `https://raw.iqiq.io/h7ml/okjiasu_action/main/package/okjiasu/free/${nowTime('YYYY-MM-DD')}/${pngPath}`
 }
 
 
@@ -219,7 +219,7 @@ const writeReadme = async (data) => {
       // | 节点名称 | 节点ip | 节点端口 | 节点ID | 节点协议 |节点链接 | 节点二维码 |`
       const { text, detail } = item;
       const { ip, port, alterID, UUid, protocol, vmess, qrcode } = detail;
-      return `| ${text} | ${ip} | ${port} | ${UUid} | ${protocol} | [点击导入](${vmess}) | ![二维码](${qrcode}) |`;
+      return `| ${text} | ${ip} | ${port} | ${UUid} | ${protocol} | <a href="${vmess}" title="${text}">点击导入</a> | ![二维码](${qrcode}) |`;
       // 解决生成的有,号的问题
     })
   // 将 tableContent 里得我逗号替换为换行

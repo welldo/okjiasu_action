@@ -21,16 +21,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 18.11.0
-      - name: Cache Node Modules
-        id: cache-node-modules
-        uses: actions/cache@v2
-        with:
-          path: node_modules
-          key: node-modules-${{ hashFiles('yarn.lock') }}
-          restore-keys: node-modules-
       - name: Install Dependencies
-        if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: yarn
+        run: yarn install
       - name: serve
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
@@ -46,3 +38,19 @@ jobs:
           BRANCH: main # The branch the action should deploy to.
           FOLDER: . # The folder the action should deploy.
           GITHUB_TOKEN: ${{ secrets.ACTION_SECRET }}
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror the Github organization repos to Gitee.
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/h7ml
+          dst: gitee/h7ml
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          white_list: "okjiasu_action"
+          force_update: true
+          account_type: user
+          clone_style: ssh
+          debug: true
+    needs: check
