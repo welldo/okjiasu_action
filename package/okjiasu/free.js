@@ -19,7 +19,6 @@ const QRCode = require('qrcode')
  * 截屏pdf所存目录
  */
 const freePath = path.join(__dirname, "./free");
-const readmePath = path.join(__dirname, `./README.md`);
 /**
  * 判断是否存在 freePath 目录
  */
@@ -36,7 +35,7 @@ const nowTime = (format = "YYYY-MM-DD-HH-mm-ss") => {
   return dayjs().format(format);
 };
 
-
+const readmePath = path.join(__dirname, `/free/${nowTime}README.md`);
 /**
  * @description: puppeteer浏览器的配置项
  */
