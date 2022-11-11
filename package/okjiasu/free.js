@@ -25,7 +25,7 @@ const nowTime = (format = "YYYY-MM-DD-HH-mm-ss") => {
 };
 
 /**
- * 截屏pdf所存目录
+ * fre所存目录
  */
 const freePath = path.join(__dirname, `./free/${nowTime('YYYY-MM-DD')}/`);
 /**
@@ -123,14 +123,14 @@ const getFreescribeUrl = async (page) => {
  * @returns 存储的地址
  */
 const generateQR = async text => {
-  const pngPath = `./${nowTime()}.png`
+  const pngPath = `${nowTime()}.png`
   const qrcodePath = path.join(freePath, pngPath)
   try {
     await QRCode.toFile(qrcodePath, text)
   } catch (err) {
     console.error(err)
   }
-  return `https://jsd.cdn.zzko.cn/gh/h7ml/okjiasu_action@master/package/okjiasu/free/${pngPath}`
+  return `//cdn.jsdelivr.net/gh/h7ml/okjiasu_action@master/package/okjiasu/free//${pngPath}`
 }
 
 
