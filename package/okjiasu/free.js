@@ -130,7 +130,7 @@ const generateQR = async text => {
   } catch (err) {
     console.error(err)
   }
-  return `//cdn.jsdelivr.net/gh/h7ml/okjiasu_action@master/package/okjiasu/free//${pngPath}`
+  return `https://raw.iqiq.io/h7ml/okjiasu_action/main/package/okjiasu/free/${pngPath}`
 }
 
 
@@ -195,6 +195,20 @@ const getFreeList = async (page) => {
   return FreeList;
 };
 
+/**
+ * 替换首页readme.md 的节点信息
+ */
+insertHome = async (data) => {
+  console.log(`${nowTime()} : 开始写入首页readme.md 的节点信息`);
+  const readmePath = path.join(__dirname, '../../README.md');
+  const readme = fs.readFileSync(readmePath, 'utf8');
+  console.log(`${nowTime()} : 读取readme.md 完毕`);
+  // 将 data 插入到 readmePath最后一行
+  const newReadme = `${readme}\n${data}`;
+  await fs.writeFileSync(readmePath, newReadme,
+    { encoding: "utf8", flag: "w" });
+  console.log(`${nowTime()} : 写入首页readme.md 的节点信息完毕`);
+}
 
 // 写入到readme
 const writeReadme = async (data) => {
@@ -205,15 +219,18 @@ const writeReadme = async (data) => {
       // | 节点名称 | 节点ip | 节点端口 | 节点ID | 节点协议 |节点链接 | 节点二维码 |`
       const { text, detail } = item;
       const { ip, port, alterID, UUid, protocol, vmess, qrcode } = detail;
-      return `| ${text} | ${ip} | ${port} | ${alterID} | ${protocol} | [点击导入](${vmess}) | ![二维码](${qrcode}) |`;
+      return `| ${text} | ${ip} | ${port} | ${UUid} | ${protocol} | [点击导入](${vmess}) | ![二维码](${qrcode}) |`;
       // 解决生成的有,号的问题
     })
   // 将 tableContent 里得我逗号替换为换行
   const tableContentStr = tableContent.join('\n').replaceAll(',', '\n')
+  const newReadme = `${readme}${tableContentStr}`;
   await fs.writeFileSync(readmePath,
-    `${readme}${tableContentStr}`,
+    newReadme,
     { encoding: "utf8", flag: "w" });
   console.log(`${nowTime()} : 写入到${readmePath} 完毕`);
+  // 插入到首页readme.md
+  await insertHome(newReadme);
 }
 
 /**
@@ -249,7 +266,7 @@ const getBrowser = async (options) => {
         JSON.stringify(FreeList, null, 4),
         { encoding: "utf8", flag: "w" });
       // 当前写入时间
-      const nowTimeStr = `## 采集时间: ${nowTime('YYYY-MM-DD HH:mm:ss')} `;
+      const nowTimeStr = `### 采集时间: ${nowTime('YYYY-MM-DD HH:mm:ss')} `;
       // 头部表格模板
       const tableHeader = `| 节点名称 | 节点ip | 节点端口 | 节点ID | 节点协议 | 节点链接 | 节点二维码 |`;
       // 换行符

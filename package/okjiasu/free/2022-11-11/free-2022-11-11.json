@@ -239,20 +239,6 @@
     },
     {
         "order": 18,
-        "text": "【A】日本（倍率2）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 19,
         "text": "德国1NF",
         "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
         "detail": {
@@ -266,7 +252,7 @@
         }
     },
     {
-        "order": 20,
+        "order": 19,
         "text": "春川1NF",
         "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
         "detail": {
@@ -280,21 +266,7 @@
         }
     },
     {
-        "order": 21,
-        "text": "杭日隧道（倍率2）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 22,
+        "order": 20,
         "text": "香港1（倍率3）",
         "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
         "detail": {
@@ -308,7 +280,7 @@
         }
     },
     {
-        "order": 23,
+        "order": 21,
         "text": "香港3（倍率3）",
         "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
         "detail": {
