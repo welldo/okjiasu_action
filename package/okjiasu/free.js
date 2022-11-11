@@ -41,7 +41,7 @@ const nowTime = (format = "YYYY-MM-DD-HH-mm-ss") => {
  * @description: puppeteer浏览器的配置项
  */
 const browserOptions = {
-  headless: false,
+  headless: true,
   ignoreDefaultArgs: ["--disable-extensions"],
   defaultViewport: {
     width: 1920,
@@ -91,13 +91,13 @@ const getFreescribeUrl = async (page) => {
           textInfo.replaceAll(" ", "").replaceAll('|', ''), // 节点名称
           'https://okjiasu.com/user/' + iframeUrl.replaceAll('./', ''),
           {
-            "ip": "112.18.159.71",
-            "port": "43285",
-            "alterID": "0",
-            "UUid": "ffe24759-fd41-334c-92a4-89fcc47ef493",
-            "protocol": "tcp",
-            "vmess": "vmess://eyJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiIsInZlcmlmeV9jZXJ0Ijp0cnVlLCJhZGQiOiIxMTIuMTguMTU5LjcxIiwicG9ydCI6NDMyODUsImFpZCI6MCwibmV0IjoidGNwIiwiaGVhZGVyVHlwZSI6Im5vbmUiLCJzZXJ2aWNlbmFtZSI6IiIsImVuYWJsZV94dGxzIjoiIiwiZmxvdyI6Inh0bHMtcnByeC1kaXJlY3QiLCJ2dHlwZSI6InZtZXNzOi8vIiwic25pIjoiIiwidiI6IjIiLCJ0eXBlIjoidm1lc3MiLCJwcyI6Iummmea4rzPvvIjlgI3njocz77yJIiwicmVtYXJrIjoi6aaZ5rivM++8iOWAjeeOhzPvvIkiLCJpZCI6ImZmZTI0NzU5LWZkNDEtMzM0Yy05MmE0LTg5ZmNjNDdlZjQ5MyIsImNsYXNzIjoyfQ==",
-            "qrcode": "/free/2022-11-10-20-12-30.png"
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
           },
           '',// 在线人数
           '', // 速度比例

@@ -1,7 +1,7 @@
 /**
  * @author        h7ml <h7ml@qq.com>
  * @date          2022-11-08 19:27:08
- * @lastModified  2022-11-10 06:51:47
+ * @lastModified  2022-11-11 08:13:17
  * Copyright © www.h7ml.cn All rights reserved
  */
 
@@ -80,7 +80,7 @@ const screenshotDOMElement = async (page, selector, path, padding = 0) => {
           await sendEmail({
             to: config.user.email,
             text: words,
-            subject: `【okjiasu_action】${nowTime(
+            subject: `【okjiasu_action check】${nowTime(
               "YYYY-MM-DD HH:mm:ss"
             )
               } 签到结果`,
