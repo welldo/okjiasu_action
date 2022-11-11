@@ -15,17 +15,6 @@ const { sendEmail } = require(`../../utils/email`);
 const { getHitokotoWords } = require("../../utils/hitokoto");
 const { getElementAttribute } = require("../../utils/puppeteer");
 const QRCode = require('qrcode')
-/**
- * 截屏pdf所存目录
- */
-const freePath = path.join(__dirname, "./free");
-/**
- * 判断是否存在 freePath 目录
- */
-if (!fs.existsSync(freePath)) {
-  console.log(`不存在目录 ${freePath}, 创建目录`);
-  fs.mkdirSync(freePath);
-}
 
 /**
  * 输出当前时间
@@ -35,7 +24,19 @@ const nowTime = (format = "YYYY-MM-DD-HH-mm-ss") => {
   return dayjs().format(format);
 };
 
-const readmePath = path.join(__dirname, `/free/${nowTime}README.md`);
+/**
+ * 截屏pdf所存目录
+ */
+const freePath = path.join(__dirname, `./free/${nowTime('YYYY-MM-DD')}/`);
+/**
+ * 判断是否存在 freePath 目录
+ */
+if (!fs.existsSync(freePath)) {
+  console.log(`不存在目录 ${freePath}, 创建目录`);
+  fs.mkdirSync(freePath);
+}
+
+const readmePath = path.join(__dirname, `/free/${nowTime('YYYY-MM-DD')}/README.md`);
 /**
  * @description: puppeteer浏览器的配置项
  */
@@ -122,13 +123,14 @@ const getFreescribeUrl = async (page) => {
  * @returns 存储的地址
  */
 const generateQR = async text => {
-  const qrcodePath = path.join(freePath, `./${nowTime()}.png`)
+  const pngPath = `./${nowTime()}.png`
+  const qrcodePath = path.join(freePath, pngPath)
   try {
     await QRCode.toFile(qrcodePath, text)
   } catch (err) {
     console.error(err)
   }
-  return qrcodePath.split('okjiasu')[2].replaceAll("\\", "/")
+  return `https://jsd.cdn.zzko.cn/gh/h7ml/okjiasu_action@master/package/okjiasu/free/${pngPath}`
 }
 
 
