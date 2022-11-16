@@ -2,7 +2,7 @@
     {
         "order": 1,
         "text": "【A】新加坡3",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -16,7 +16,7 @@
     {
         "order": 2,
         "text": "【A】日本（倍率0.1）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -29,8 +29,8 @@
     },
     {
         "order": 3,
-        "text": "【A】苏日（倍率2）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "A如无法使用请更新订阅",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -43,8 +43,8 @@
     },
     {
         "order": 4,
-        "text": "A如无法使用请更新订阅",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "俄罗斯（倍率0.1）",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -58,7 +58,7 @@
     {
         "order": 5,
         "text": "台湾NF(倍率0.5）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -72,7 +72,7 @@
     {
         "order": 6,
         "text": "德国2NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -86,7 +86,7 @@
     {
         "order": 7,
         "text": "新加坡1OracleNF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -100,7 +100,7 @@
     {
         "order": 8,
         "text": "新加坡2OracleNF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -114,7 +114,7 @@
     {
         "order": 9,
         "text": "海南-香港（倍率2）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -127,8 +127,8 @@
     },
     {
         "order": 10,
-        "text": "迪拜1NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "美国加州",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -141,8 +141,8 @@
     },
     {
         "order": 11,
-        "text": "迪拜2NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "迪拜1NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -155,8 +155,8 @@
     },
     {
         "order": 12,
-        "text": "香港2（倍率3）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "迪拜2NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -169,8 +169,8 @@
     },
     {
         "order": 13,
-        "text": "【A】香港1微软（电信起飞）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "【A】韩国（倍率0.1）",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -183,8 +183,8 @@
     },
     {
         "order": 14,
-        "text": "加拿大（倍率0.1）NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "【A】香港1微软（电信起飞）",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -197,8 +197,8 @@
     },
     {
         "order": 15,
-        "text": "加拿大）NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "加拿大（倍率0.1）NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -211,8 +211,8 @@
     },
     {
         "order": 16,
-        "text": "春川2NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "加拿大）NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -225,8 +225,8 @@
     },
     {
         "order": 17,
-        "text": "广港（倍率2）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "春川2NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -239,8 +239,8 @@
     },
     {
         "order": 18,
-        "text": "德国1NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "【A】日本（倍率2）",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -253,8 +253,8 @@
     },
     {
         "order": 19,
-        "text": "春川1NF",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "【A】日本大阪（倍率2）",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -267,8 +267,8 @@
     },
     {
         "order": 20,
-        "text": "香港1（倍率3）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "广港（倍率2）",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -281,8 +281,22 @@
     },
     {
         "order": 21,
-        "text": "香港3（倍率3）",
-        "url": "https://okjiasu.com/user/node/34?ismu=0&relay_rule=undefined",
+        "text": "德国1NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 22,
+        "text": "春川1NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
