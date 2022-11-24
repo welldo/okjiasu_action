@@ -169,7 +169,7 @@
     },
     {
         "order": 13,
-        "text": "【A】日本（倍率2）",
+        "text": "越南",
         "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -183,7 +183,7 @@
     },
     {
         "order": 14,
-        "text": "【A】日本大阪（倍率2）",
+        "text": "【A】日本（倍率2）",
         "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -197,7 +197,7 @@
     },
     {
         "order": 15,
-        "text": "广港（倍率2）",
+        "text": "【A】日本大阪（倍率2）",
         "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -211,7 +211,7 @@
     },
     {
         "order": 16,
-        "text": "德国1NF",
+        "text": "广港（倍率2）",
         "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -225,6 +225,20 @@
     },
     {
         "order": 17,
+        "text": "德国1NF",
+        "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 18,
         "text": "春川1NF",
         "url": "https://okjiasu.com/user/node/17?ismu=0&relay_rule=undefined",
         "detail": {
