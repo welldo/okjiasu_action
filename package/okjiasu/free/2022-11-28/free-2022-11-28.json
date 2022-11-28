@@ -197,20 +197,6 @@
     },
     {
         "order": 15,
-        "text": "加拿大）NF",
-        "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 16,
         "text": "春川2NF",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -224,7 +210,7 @@
         }
     },
     {
-        "order": 17,
+        "order": 16,
         "text": "美国3OracleNF",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -238,7 +224,7 @@
         }
     },
     {
-        "order": 18,
+        "order": 17,
         "text": "【A】日本（倍率2）",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -252,7 +238,7 @@
         }
     },
     {
-        "order": 19,
+        "order": 18,
         "text": "【A】日本大阪（倍率2）",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -266,7 +252,7 @@
         }
     },
     {
-        "order": 20,
+        "order": 19,
         "text": "广港（倍率2）",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -280,7 +266,7 @@
         }
     },
     {
-        "order": 21,
+        "order": 20,
         "text": "德国1NF",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -294,7 +280,7 @@
         }
     },
     {
-        "order": 22,
+        "order": 21,
         "text": "春川1NF",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -308,7 +294,7 @@
         }
     },
     {
-        "order": 23,
+        "order": 22,
         "text": "美国1OracleNF",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
