@@ -1,20 +1,6 @@
 [
     {
         "order": 1,
-        "text": "【A】广港NF（倍率2）",
-        "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 2,
         "text": "【A】新加坡3",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -28,7 +14,7 @@
         }
     },
     {
-        "order": 3,
+        "order": 2,
         "text": "【A】日本",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -42,7 +28,7 @@
         }
     },
     {
-        "order": 4,
+        "order": 3,
         "text": "【A】香港1微软（电信起飞）",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -56,7 +42,7 @@
         }
     },
     {
-        "order": 5,
+        "order": 4,
         "text": "俄罗斯（倍率0.1）",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
@@ -70,8 +56,22 @@
         }
     },
     {
-        "order": 6,
+        "order": 5,
         "text": "台湾NF(倍率1.5）",
+        "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 6,
+        "text": "广港NF（倍率0.1）",
         "url": "https://okjiasu.com/user/node/31?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
