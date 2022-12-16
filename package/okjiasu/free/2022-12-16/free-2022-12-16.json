@@ -1,1 +1,352 @@
-[]
+[
+    {
+        "order": 1,
+        "text": "⚜️🇹🇼台湾NF(倍率1.5）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 2,
+        "text": "⚜️🇸🇬新加坡（移动起飞）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 3,
+        "text": "⚜️🇯🇵日本（联通起飞）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 4,
+        "text": "⚜️🇺🇸美国原生",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 5,
+        "text": "⚜️🇰🇷韩国原生(SKTelecom)",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 6,
+        "text": "🔆如无法使用请更新订阅",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 7,
+        "text": "🔆🇸🇬新加坡2OracleNF(倍率2)",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 8,
+        "text": "🟢🇩🇪德国2NF（倍率0.1）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 9,
+        "text": "🟢🇸🇬新加坡1OracleNF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 10,
+        "text": "🟢🇺🇸美国2OracleNF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 11,
+        "text": "🟢🇺🇸美国4OracleNF（倍率0.1）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 12,
+        "text": "🟢🇦🇪迪拜1NF（倍率0.1）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 13,
+        "text": "🟢🇦🇪迪拜2NF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 14,
+        "text": "⚜️🇯🇵日本原生（KDDI）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 15,
+        "text": "🟢🇨🇦加拿大（倍率0.1）NF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 16,
+        "text": "🟢🇨🇦加拿大NF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 17,
+        "text": "🟢🇰🇷春川2NF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 18,
+        "text": "🟢🇺🇸美国3OracleNF（倍率0.1）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 19,
+        "text": "⚜️🇯🇵日本大阪（倍率2）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 20,
+        "text": "🟢🇭🇰广州-香港NF（倍率2）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 21,
+        "text": "🟢🇩🇪德国1NF（倍率0.1）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 22,
+        "text": "🟢🇯🇵日本",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 23,
+        "text": "🟢🇰🇷春川1NF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 24,
+        "text": "🟢🇺🇸美国1OracleNF",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 25,
+        "text": "🟢🇭🇰香港-电信NF（电信起飞）",
+        "url": "https://okjiasu.com/user/node/12?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    }
+]
