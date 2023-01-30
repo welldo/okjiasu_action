@@ -89,7 +89,7 @@ const getFreescribeUrl = async (page) => {
       ] = [
           index + 1,// 序号,
           textInfo.replaceAll(" ", "").replaceAll('|', ''), // 节点名称
-          'https://okjiasu.com/user/' + iframeUrl.replaceAll('./', ''),
+          'https://zhuri.cc/user/' + iframeUrl.replaceAll('./', ''),
           {
             "ip": "",
             "port": "",
@@ -119,7 +119,7 @@ const getFreescribeUrl = async (page) => {
 
 /**
  * 生成二维码并保存
- * @param {*} text 
+ * @param {*} text
  * @returns 存储的地址
  */
 const generateQR = async text => {
@@ -171,12 +171,12 @@ const openIframeUrl = async (page, data) => {
 
 /**
  * 获取免费节点
- * @param {*} page 
+ * @param {*} page
  */
 const getFreeList = async (page) => {
   const freejsonpath = path.join(freePath, `free-${nowTime('YYYY-MM-DD')}.json`);
   console.log(`${nowTime()} : 跳转到节点列表页`);
-  await page.goto('https://okjiasu.com/user/node')
+  await page.goto('https://zhuri.cc/user/node')
   console.log(`${nowTime()} : 获取订阅链接`);
   await page.waitForTimeout(1000);
   const subscribeUrl = await getFreescribeUrl(page);
