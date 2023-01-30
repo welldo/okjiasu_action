@@ -18,7 +18,7 @@ module.exports = {
     email: process.env.USER_EMAIL, // 你的接收通知的邮箱
   },
   okjiasu: {
-    login: 'https://zhuri.cc/auth/login',
+    login: 'https://okjiasu.com/auth/login',
     user: process.env.OK_USER,
     password: process.env.OK_PASSWORD,
   },
