@@ -4,7 +4,7 @@
  * @lastModified  2022-11-09 18:06:45
  * Copyright © www.h7ml.cn All rights reserved
  */
-const { okJiaSuCheck, getBrowser } = require('./package/okjiasu/index');
+const { okJiaSuCheck, getBrowser } = require('./package/okjiasu/free');
 (async () => {
   await getBrowser()
 })()
