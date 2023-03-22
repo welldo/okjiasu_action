@@ -1,4 +1,4 @@
-### 采集时间: 2023-03-22 00:56:09 
+### 采集时间: 2023-03-22 12:19:19 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
 | 【A】⚜️新加坡 | <details><summary><a href="undefined" title="【A】⚜️新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
@@ -13,7 +13,6 @@
 | 🟢🇺🇸美国1OracleNF | <details><summary><a href="undefined" title="🟢🇺🇸美国1OracleNF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜1NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜1NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜3NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜3NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| 🟢🇨🇦加拿大（倍率0.1）NF | <details><summary><a href="undefined" title="🟢🇨🇦加拿大（倍率0.1）NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇨🇦加拿大NF | <details><summary><a href="undefined" title="🟢🇨🇦加拿大NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇺🇸美国3OracleNF | <details><summary><a href="undefined" title="🟢🇺🇸美国3OracleNF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜4NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜4NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
