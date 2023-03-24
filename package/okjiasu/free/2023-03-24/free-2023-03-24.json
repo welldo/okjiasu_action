@@ -1,7 +1,7 @@
 [
     {
         "order": 1,
-        "text": "【A】⚜️新加坡",
+        "text": "香港HKt（倍率2）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -15,7 +15,7 @@
     },
     {
         "order": 2,
-        "text": "香港HKt（倍率2）",
+        "text": "⚜️新加坡",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -127,20 +127,6 @@
     },
     {
         "order": 10,
-        "text": "🟢🇺🇸美国1OracleNF",
-        "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 11,
         "text": "🟢🇦🇪迪拜1NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -154,7 +140,7 @@
         }
     },
     {
-        "order": 12,
+        "order": 11,
         "text": "🟢🇦🇪迪拜3NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -168,7 +154,7 @@
         }
     },
     {
-        "order": 13,
+        "order": 12,
         "text": "【A】⚜️🇯🇵日本",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -182,7 +168,7 @@
         }
     },
     {
-        "order": 14,
+        "order": 13,
         "text": "🟢🇨🇦加拿大NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -196,7 +182,7 @@
         }
     },
     {
-        "order": 15,
+        "order": 14,
         "text": "🟢🇺🇸美国3OracleNF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -210,7 +196,7 @@
         }
     },
     {
-        "order": 16,
+        "order": 15,
         "text": "🟢🇦🇪迪拜4NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -224,7 +210,7 @@
         }
     },
     {
-        "order": 17,
+        "order": 16,
         "text": "香港HKT（倍率2）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -238,7 +224,7 @@
         }
     },
     {
-        "order": 18,
+        "order": 17,
         "text": "⚜️🇯🇵日本大阪（倍率2）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -252,7 +238,7 @@
         }
     },
     {
-        "order": 19,
+        "order": 18,
         "text": "🟢🇩🇪德国1NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -266,7 +252,7 @@
         }
     },
     {
-        "order": 20,
+        "order": 19,
         "text": "🟢🇩🇪德国2NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -280,7 +266,7 @@
         }
     },
     {
-        "order": 21,
+        "order": 20,
         "text": "🟢🇩🇪德国3NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -294,7 +280,7 @@
         }
     },
     {
-        "order": 22,
+        "order": 21,
         "text": "🟢🇯🇵日本",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -308,7 +294,7 @@
         }
     },
     {
-        "order": 23,
+        "order": 22,
         "text": "🟢🇰🇷春川3NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -322,7 +308,7 @@
         }
     },
     {
-        "order": 24,
+        "order": 23,
         "text": "🟢🇰🇷春川4NF(倍率2)",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -336,7 +322,7 @@
         }
     },
     {
-        "order": 25,
+        "order": 24,
         "text": "🟢🇺🇸美国4OracleNF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
@@ -350,7 +336,7 @@
         }
     },
     {
-        "order": 26,
+        "order": 25,
         "text": "🟢🇦🇪迪拜2NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {

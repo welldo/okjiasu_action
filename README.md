@@ -94,11 +94,11 @@
 </div>
 
 ## 今日免费节点
-### 采集时间: 2023-03-24 12:19:46 
+### 采集时间: 2023-03-24 12:13:54 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
-| 【A】⚜️新加坡 | <details><summary><a href="undefined" title="【A】⚜️新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 香港HKt（倍率2） | <details><summary><a href="undefined" title="香港HKt（倍率2）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| ⚜️新加坡 | <details><summary><a href="undefined" title="⚜️新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | ⚜️🇸🇬新加坡（移动起飞） | <details><summary><a href="undefined" title="⚜️🇸🇬新加坡（移动起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | ⚜️🇯🇵日本（联通起飞） | <details><summary><a href="undefined" title="⚜️🇯🇵日本（联通起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | ⚜️🇰🇷韩国 | <details><summary><a href="undefined" title="⚜️🇰🇷韩国">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
@@ -106,7 +106,6 @@
 | 🟢🇩🇪德国4NF | <details><summary><a href="undefined" title="🟢🇩🇪德国4NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇰🇷春川1NF | <details><summary><a href="undefined" title="🟢🇰🇷春川1NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇰🇷春川2NF | <details><summary><a href="undefined" title="🟢🇰🇷春川2NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| 🟢🇺🇸美国1OracleNF | <details><summary><a href="undefined" title="🟢🇺🇸美国1OracleNF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜1NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜1NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜3NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜3NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 【A】⚜️🇯🇵日本 | <details><summary><a href="undefined" title="【A】⚜️🇯🇵日本">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
