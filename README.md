@@ -94,9 +94,11 @@
 </div>
 
 ## 今日免费节点
-### 采集时间: 2023-03-25 00:54:53 
+### 采集时间: 2023-03-25 12:19:07 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
+| 圣保罗1（0.1倍） | <details><summary><a href="undefined" title="圣保罗1（0.1倍）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 圣保罗2（0.1倍） | <details><summary><a href="undefined" title="圣保罗2（0.1倍）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 香港HKt（倍率2） | <details><summary><a href="undefined" title="香港HKt（倍率2）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | ⚜️新加坡 | <details><summary><a href="undefined" title="⚜️新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | ⚜️🇸🇬新加坡（移动起飞） | <details><summary><a href="undefined" title="⚜️🇸🇬新加坡（移动起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
