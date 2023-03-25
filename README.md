@@ -94,16 +94,12 @@
 </div>
 
 ## 今日免费节点
-### 采集时间: 2023-03-25 12:19:07 
+### 采集时间: 2023-03-25 12:09:13 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
 | 圣保罗1（0.1倍） | <details><summary><a href="undefined" title="圣保罗1（0.1倍）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 圣保罗2（0.1倍） | <details><summary><a href="undefined" title="圣保罗2（0.1倍）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 香港HKt（倍率2） | <details><summary><a href="undefined" title="香港HKt（倍率2）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| ⚜️新加坡 | <details><summary><a href="undefined" title="⚜️新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| ⚜️🇸🇬新加坡（移动起飞） | <details><summary><a href="undefined" title="⚜️🇸🇬新加坡（移动起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| ⚜️🇯🇵日本（联通起飞） | <details><summary><a href="undefined" title="⚜️🇯🇵日本（联通起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| ⚜️🇰🇷韩国 | <details><summary><a href="undefined" title="⚜️🇰🇷韩国">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇹🇼台湾NF(倍率0.5） | <details><summary><a href="undefined" title="🟢🇹🇼台湾NF(倍率0.5）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇩🇪德国4NF | <details><summary><a href="undefined" title="🟢🇩🇪德国4NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇰🇷春川1NF | <details><summary><a href="undefined" title="🟢🇰🇷春川1NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
