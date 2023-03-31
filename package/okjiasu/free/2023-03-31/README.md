@@ -1,8 +1,8 @@
-### 采集时间: 2023-03-31 12:20:01 
+### 采集时间: 2023-03-31 12:10:50 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
-| 【A】⚜️新加坡 | <details><summary><a href="undefined" title="【A】⚜️新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| 【A】⚜️🇸🇬新加坡（移动起飞） | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡（移动起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 【A】⚜️🇸🇬新加坡 | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 【A】⚜️🇸🇬新加坡1 | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡1">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 【A】⚜️🇯🇵日本原生（KDDI） | <details><summary><a href="undefined" title="【A】⚜️🇯🇵日本原生（KDDI）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 【A】⚜️🇰🇷韩国 | <details><summary><a href="undefined" title="【A】⚜️🇰🇷韩国">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | uk2 | <details><summary><a href="undefined" title="uk2">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
