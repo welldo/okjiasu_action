@@ -1,8 +1,8 @@
-### 采集时间: 2023-04-01 01:56:12 
+### 采集时间: 2023-04-01 12:18:46 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
-| 【A】⚜️🇸🇬新加坡 | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| 【A】⚜️🇸🇬新加坡1 | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡1">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 【A】⚜️🇸🇬新加坡（电信起飞） | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡（电信起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 【A】⚜️🇸🇬新加坡（移动起飞） | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡（移动起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 【A】⚜️🇯🇵日本原生（KDDI） | <details><summary><a href="undefined" title="【A】⚜️🇯🇵日本原生（KDDI）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 【A】⚜️🇰🇷韩国 | <details><summary><a href="undefined" title="【A】⚜️🇰🇷韩国">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | uk2 | <details><summary><a href="undefined" title="uk2">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
@@ -16,7 +16,7 @@
 | 🟢🇺🇸美国1OracleNF | <details><summary><a href="undefined" title="🟢🇺🇸美国1OracleNF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜1NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜1NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜3NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜3NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| 【A】⚜️🇯🇵日本 | <details><summary><a href="undefined" title="【A】⚜️🇯🇵日本">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 【A】⚜️🇯🇵日本（联通起飞） | <details><summary><a href="undefined" title="【A】⚜️🇯🇵日本（联通起飞）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇨🇦加拿大NF | <details><summary><a href="undefined" title="🟢🇨🇦加拿大NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇺🇸美国3OracleNF | <details><summary><a href="undefined" title="🟢🇺🇸美国3OracleNF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇦🇪迪拜4NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜4NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |

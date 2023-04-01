@@ -1,7 +1,7 @@
 [
     {
         "order": 1,
-        "text": "【A】⚜️🇸🇬新加坡",
+        "text": "【A】⚜️🇸🇬新加坡（电信起飞）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -15,7 +15,7 @@
     },
     {
         "order": 2,
-        "text": "【A】⚜️🇸🇬新加坡1",
+        "text": "【A】⚜️🇸🇬新加坡（移动起飞）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -211,7 +211,7 @@
     },
     {
         "order": 16,
-        "text": "【A】⚜️🇯🇵日本",
+        "text": "【A】⚜️🇯🇵日本（联通起飞）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
