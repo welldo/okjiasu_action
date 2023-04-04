@@ -94,7 +94,7 @@
 </div>
 
 ## 今日免费节点
-### 采集时间: 2023-04-04 12:18:57 
+### 采集时间: 2023-04-04 12:17:55 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
 | 【A】⚜️🇸🇬新加坡 | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
@@ -123,5 +123,5 @@
 | 🟢🇯🇵日本 | <details><summary><a href="undefined" title="🟢🇯🇵日本">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇰🇷春川3NF | <details><summary><a href="undefined" title="🟢🇰🇷春川3NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇰🇷春川4NF(倍率2) | <details><summary><a href="undefined" title="🟢🇰🇷春川4NF(倍率2)">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
-| 🟢🇺🇸美国4OracleNF | <details><summary><a href="undefined" title="🟢🇺🇸美国4OracleNF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 🟢🇺🇸美国4OracleNF | <details><summary><a href="" title="🟢🇺🇸美国4OracleNF">点击导入</a></summary></details> | ![二维码]() |
 | 🟢🇦🇪迪拜2NF | <details><summary><a href="undefined" title="🟢🇦🇪迪拜2NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
