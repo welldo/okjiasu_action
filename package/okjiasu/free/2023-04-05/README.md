@@ -1,4 +1,4 @@
-### 采集时间: 2023-04-05 12:19:11 
+### 采集时间: 2023-04-05 12:17:16 
 | 节点名称 | 节点链接 | 节点二维码 |
 | :---: | :---: | :---: |
 | 【A】⚜️🇸🇬新加坡 | <details><summary><a href="undefined" title="【A】⚜️🇸🇬新加坡">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
@@ -8,6 +8,8 @@
 | uk2 | <details><summary><a href="undefined" title="uk2">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 圣保罗1（0.1倍） | <details><summary><a href="undefined" title="圣保罗1（0.1倍）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 圣保罗2（0.1倍） | <details><summary><a href="undefined" title="圣保罗2（0.1倍）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 🟢🇨🇦加拿大（倍率0.1）NF | <details><summary><a href="undefined" title="🟢🇨🇦加拿大（倍率0.1）NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
+| 🟢🇨🇦加拿大3NF | <details><summary><a href="undefined" title="🟢🇨🇦加拿大3NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇹🇼台湾NF(倍率0.5） | <details><summary><a href="undefined" title="🟢🇹🇼台湾NF(倍率0.5）">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇩🇪德国4NF | <details><summary><a href="undefined" title="🟢🇩🇪德国4NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |
 | 🟢🇰🇷春川1NF | <details><summary><a href="undefined" title="🟢🇰🇷春川1NF">点击导入</a></summary>undefined</details> | ![二维码](undefined) |

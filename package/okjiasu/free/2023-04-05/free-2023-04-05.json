@@ -99,7 +99,7 @@
     },
     {
         "order": 8,
-        "text": "🟢🇹🇼台湾NF(倍率0.5）",
+        "text": "🟢🇨🇦加拿大（倍率0.1）NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -113,7 +113,7 @@
     },
     {
         "order": 9,
-        "text": "🟢🇩🇪德国4NF",
+        "text": "🟢🇨🇦加拿大3NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -127,7 +127,7 @@
     },
     {
         "order": 10,
-        "text": "🟢🇰🇷春川1NF",
+        "text": "🟢🇹🇼台湾NF(倍率0.5）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -141,7 +141,7 @@
     },
     {
         "order": 11,
-        "text": "🟢🇰🇷春川2NF",
+        "text": "🟢🇩🇪德国4NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -155,7 +155,7 @@
     },
     {
         "order": 12,
-        "text": "🟢🇺🇸美国1OracleNF",
+        "text": "🟢🇰🇷春川1NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -169,7 +169,7 @@
     },
     {
         "order": 13,
-        "text": "🟢🇦🇪迪拜1NF",
+        "text": "🟢🇰🇷春川2NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -183,7 +183,7 @@
     },
     {
         "order": 14,
-        "text": "🟢🇦🇪迪拜3NF",
+        "text": "🟢🇺🇸美国1OracleNF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -197,7 +197,7 @@
     },
     {
         "order": 15,
-        "text": "【A】⚜️🇯🇵日本（联通起飞）",
+        "text": "🟢🇦🇪迪拜1NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -211,7 +211,7 @@
     },
     {
         "order": 16,
-        "text": "🟢🇨🇦加拿大NF",
+        "text": "🟢🇦🇪迪拜3NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -225,7 +225,7 @@
     },
     {
         "order": 17,
-        "text": "🟢🇺🇸美国3OracleNF",
+        "text": "【A】⚜️🇯🇵日本（联通起飞）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -239,7 +239,7 @@
     },
     {
         "order": 18,
-        "text": "🟢🇦🇪迪拜4NF",
+        "text": "🟢🇨🇦加拿大NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -253,7 +253,7 @@
     },
     {
         "order": 19,
-        "text": "uk1",
+        "text": "🟢🇺🇸美国3OracleNF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -267,7 +267,7 @@
     },
     {
         "order": 20,
-        "text": "⚜️🇯🇵日本大阪（倍率2）",
+        "text": "🟢🇦🇪迪拜4NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -281,7 +281,7 @@
     },
     {
         "order": 21,
-        "text": "🟢🇩🇪德国1NF",
+        "text": "uk1",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -295,7 +295,7 @@
     },
     {
         "order": 22,
-        "text": "🟢🇩🇪德国2NF",
+        "text": "⚜️🇯🇵日本大阪（倍率2）",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -309,7 +309,7 @@
     },
     {
         "order": 23,
-        "text": "🟢🇩🇪德国3NF",
+        "text": "🟢🇩🇪德国1NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -323,7 +323,7 @@
     },
     {
         "order": 24,
-        "text": "🟢🇯🇵日本",
+        "text": "🟢🇩🇪德国2NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -337,7 +337,7 @@
     },
     {
         "order": 25,
-        "text": "🟢🇰🇷春川3NF",
+        "text": "🟢🇩🇪德国3NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -351,7 +351,7 @@
     },
     {
         "order": 26,
-        "text": "🟢🇰🇷春川4NF(倍率2)",
+        "text": "🟢🇯🇵日本",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -365,7 +365,7 @@
     },
     {
         "order": 27,
-        "text": "🟢🇺🇸美国4OracleNF",
+        "text": "🟢🇰🇷春川3NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -379,6 +379,34 @@
     },
     {
         "order": 28,
+        "text": "🟢🇰🇷春川4NF(倍率2)",
+        "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 29,
+        "text": "🟢🇺🇸美国4OracleNF",
+        "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 30,
         "text": "🟢🇦🇪迪拜2NF",
         "url": "https://zhuri.cc/user/node/36?ismu=0&relay_rule=undefined",
         "detail": {
