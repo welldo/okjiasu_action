@@ -1,20 +1,6 @@
 [
     {
         "order": 1,
-        "text": "【A】新加坡3",
-        "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 2,
         "text": "【A】新加坡4",
         "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
         "detail": {
@@ -28,7 +14,7 @@
         }
     },
     {
-        "order": 3,
+        "order": 2,
         "text": "【A】⚜️🇯🇵日本原生（KDDI）",
         "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
         "detail": {
@@ -42,7 +28,7 @@
         }
     },
     {
-        "order": 4,
+        "order": 3,
         "text": "【A】⚜️🇰🇷韩国",
         "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
         "detail": {
@@ -56,21 +42,7 @@
         }
     },
     {
-        "order": 5,
-        "text": "uk2",
-        "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 6,
+        "order": 4,
         "text": "圣保罗1（0.1倍）",
         "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
         "detail": {
@@ -84,8 +56,36 @@
         }
     },
     {
-        "order": 7,
+        "order": 5,
         "text": "圣保罗2（0.1倍）",
+        "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 6,
+        "text": "新加坡3",
+        "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 7,
+        "text": "英国原生ip倍率2",
         "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
@@ -309,7 +309,7 @@
     },
     {
         "order": 23,
-        "text": "uk1",
+        "text": "英国1",
         "url": "https://zhuri.cc/user/node/37?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
