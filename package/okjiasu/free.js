@@ -70,48 +70,48 @@ const getFreescribeUrl = async (page) => {
   console.log(`${nowTime()} : 获取到 ${n.length} 个免费节点`);
   // 有效节点
   const validNode = await page.$$(".node-is-online", (element) => element);
-  // 点击每个节点
   await Promise.all(
     validNode.map(async (item, index) => {
       await page.waitForTimeout(1000);
-      await item.executionContext().evaluate((item) => item.click({ delay: 50 }), item)
-      const textInfo = await item
-        .executionContext()
-        .evaluate((item) => item.textContent, item);
-      console.log(`${nowTime('YYYY-MM-DDTHH:mm:ssZ[Z]')} : 点击节点 ${textInfo}`);
-      // 打开iframe id 为 infoifram 的src地址
-      await page.waitForTimeout(1000);
-      await page.waitForSelector("#infoifram");
-      const iframeUrl = await getElementAttribute(page, "#infoifram", "src");
-      const [
-        order, text, url, detail
-        //  online, ratio, load, rate
-      ] = [
-          index + 1,// 序号,
-          textInfo.replaceAll(" ", "").replaceAll('|', ''), // 节点名称
-          'https://zhuri.cc/user/' + iframeUrl.replaceAll('./', ''),
-          {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
+      await item.executionContext().evaluate((item) => {
+        item.click({ delay: 50 });
+        const textInfo = item.textContent.replace(/\s|\|/g, '');
+        console.log(`点击节点 ${textInfo}`);
+        const iframeElem = document.querySelector("#infoifram");
+        const iframeUrl = iframeElem ? iframeElem.getAttribute("src") : ""
+        console.log(`获取到 ${textInfo} 的节点链接 ${iframeUrl}`);
+        return {
+          textInfo,
+          iframeUrl
+        }
+      }, item).then((result) => {
+        const {
+          textInfo, iframeUrl
+        } = result || {};
+        const url =
+          "https://zhuri.cc/user/" +
+          (iframeUrl ? iframeUrl.replace("./", "") : "");
+
+        const order = index + 1;
+        console.log(`获取到第${order}的节点${textInfo}订阅链接 ${url}`);
+        subscribeUrl.push({
+          order,
+          text: textInfo,
+          url,
+          detail: {
+            ip: "",
+            port: "",
+            alterID: "",
+            UUid: "",
+            protocol: "",
+            vmess: "",
+            qrcode: "",
           },
-          '',// 在线人数
-          '', // 速度比例
-          '',// 负载
-          '', // 速率
-        ];
-      console.log(`${nowTime('YYYY-MM-DDTHH:mm:ssZ[Z]')} : 获取到第${order}的节点${text}订阅链接 ${url}`);
-      subscribeUrl.push({
-        order, text, url, detail
+        });
       });
       await page.click("span[aria-hidden='true']");
       await page.waitForTimeout(1000);
     })
-
   );
   console.log(`${nowTime()} : 节点信息采集完毕`);
   return subscribeUrl;
