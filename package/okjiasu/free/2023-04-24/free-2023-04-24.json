@@ -1,6 +1,20 @@
 [
     {
         "order": 1,
+        "text": "【A】⚜️🇸🇬新加坡2",
+        "url": "https://zhuri.cc/user/node/9?ismu=0&relay_rule=undefined",
+        "detail": {
+            "ip": "",
+            "port": "",
+            "alterID": "",
+            "UUid": "",
+            "protocol": "",
+            "vmess": "",
+            "qrcode": ""
+        }
+    },
+    {
+        "order": 2,
         "text": "【A】⚜️🇸🇬新加坡3",
         "url": "https://zhuri.cc/user/node/39?ismu=0&relay_rule=undefined",
         "detail": {
@@ -14,7 +28,7 @@
         }
     },
     {
-        "order": 2,
+        "order": 3,
         "text": "【A】⚜️🇯🇵日本原生（ChatGPT）",
         "url": "https://zhuri.cc/user/node/7?ismu=0&relay_rule=undefined",
         "detail": {
@@ -28,7 +42,7 @@
         }
     },
     {
-        "order": 3,
+        "order": 4,
         "text": "【A】⚜️🇰🇷韩国",
         "url": "https://zhuri.cc/user/node/5?ismu=0&relay_rule=undefined",
         "detail": {
@@ -42,7 +56,7 @@
         }
     },
     {
-        "order": 4,
+        "order": 5,
         "text": "圣保罗1（0.1倍）",
         "url": "https://zhuri.cc/user/node/41?ismu=0&relay_rule=undefined",
         "detail": {
@@ -56,7 +70,7 @@
         }
     },
     {
-        "order": 5,
+        "order": 6,
         "text": "圣保罗2（0.1倍）",
         "url": "https://zhuri.cc/user/node/42?ismu=0&relay_rule=undefined",
         "detail": {
@@ -70,7 +84,7 @@
         }
     },
     {
-        "order": 6,
+        "order": 7,
         "text": "英国原生ip倍率2（ChatGPT）",
         "url": "https://zhuri.cc/user/node/24?ismu=0&relay_rule=undefined",
         "detail": {
@@ -84,7 +98,7 @@
         }
     },
     {
-        "order": 7,
+        "order": 8,
         "text": "香港HKt（倍率2）（ChatGPT）",
         "url": "https://zhuri.cc/user/node/43?ismu=0&relay_rule=undefined",
         "detail": {
@@ -98,23 +112,9 @@
         }
     },
     {
-        "order": 8,
+        "order": 9,
         "text": "⚜️🇸🇬新加坡1",
         "url": "https://zhuri.cc/user/node/8?ismu=0&relay_rule=undefined",
-        "detail": {
-            "ip": "",
-            "port": "",
-            "alterID": "",
-            "UUid": "",
-            "protocol": "",
-            "vmess": "",
-            "qrcode": ""
-        }
-    },
-    {
-        "order": 9,
-        "text": "⚜️🇸🇬新加坡2",
-        "url": "https://zhuri.cc/user/node/9?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
