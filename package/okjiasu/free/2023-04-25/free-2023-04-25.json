@@ -1,8 +1,8 @@
 [
     {
         "order": 1,
-        "text": "【A】⚜️🇸🇬新加坡2",
-        "url": "https://zhuri.cc/user/node/9?ismu=0&relay_rule=undefined",
+        "text": "【A】⚜️🇸🇬新加坡3",
+        "url": "https://zhuri.cc/user/node/39?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -15,8 +15,8 @@
     },
     {
         "order": 2,
-        "text": "【A】⚜️🇸🇬新加坡3",
-        "url": "https://zhuri.cc/user/node/39?ismu=0&relay_rule=undefined",
+        "text": "【A】⚜️🇸🇬新加坡4",
+        "url": "https://zhuri.cc/user/node/40?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
@@ -127,8 +127,8 @@
     },
     {
         "order": 10,
-        "text": "⚜️🇸🇬新加坡4",
-        "url": "https://zhuri.cc/user/node/40?ismu=0&relay_rule=undefined",
+        "text": "⚜️🇸🇬新加坡2",
+        "url": "https://zhuri.cc/user/node/9?ismu=0&relay_rule=undefined",
         "detail": {
             "ip": "",
             "port": "",
